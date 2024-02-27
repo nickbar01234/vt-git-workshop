@@ -1,6 +1,6 @@
-Phuc Khang:
-Quy Nguyen:
-Vy Tran:
-Linh Nguyen:
-Minh Hung:
-Trang Do:
+Phuc Khang: [School], [Fun fact]
+Quy Nguyen: [School], [Fun fact]
+Vy Tran: [School], [Fun fact]
+Linh Nguyen: [School], [Fun fact]
+Minh Hung: [School], [Fun fact]
+Trang Do: [School], [Fun fact]

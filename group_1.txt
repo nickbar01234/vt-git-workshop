@@ -1,5 +1,5 @@
 Phuong Le: Hello, World
-Hai Nam:
-Thuc Anh:
-Huu Khang:
-Ba Quan:
+Hai Nam: [School], [Fun fact]
+Thuc Anh: [School], [Fun fact]
+Huu Khang: [School], [Fun fact]
+Ba Quan: [School], [Fun fact]

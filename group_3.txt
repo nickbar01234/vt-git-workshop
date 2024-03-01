@@ -1,5 +1,5 @@
-Giang Pham:
-Truong Vien:
-Hai Anh:
-Huy Hoang:
-Duy Kha:
+Giang Pham: [School], [Fun fact]
+Truong Vien: [School], [Fun fact]
+Hai Anh: [School], [Fun fact]
+Huy Hoang: [School], [Fun fact]
+Duy Kha: [School], [Fun fact]

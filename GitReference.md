@@ -60,7 +60,7 @@ reasons (and many more):
 ![Git workflow](https://git-scm.com/book/en/v2/images/areas.png)
 
 - In Git, we refer to a project as a **repository**.
-- At a given time, you will checkout a **snapshot** (version) of the project and modify / create files.
+- At a given time, you will checkout a **snapshot** (version) of the project and modify / create / delete files.
 - Once you're happy with the changes, you will place the files into the **staging area**.
 - Finally, you will commit and take a snapshot of the project!
 
@@ -79,9 +79,9 @@ git init
 The staging area contains the files that will go into your next commit. To
 stage file(s), use the command `git add <file-1> ... [file-N]`.
 
-Note that Git only stores the state of the file at the most recent time when you run
-`git add ...`. This means in the following snippet, committing will only take
-a snapshot of the README with Hello world!
+Note that Git only stores the state of the file(s) when they were most recently
+staged, using `git add ...`. This means in the following snippet, committing
+will only take a snapshot of the README with Hello world!
 
 ```sh
 echo "Hello world" >> README
@@ -90,7 +90,7 @@ echo "Bye world" >> README
 git commit
 ```
 
-> ⚠️ You may come across `git add .` in the wild, which means add all created / modified files to the staging area. If you're new to Git, this can be dangerous as you may inadvertently commit unwanted files.
+> ⚠️ You may come across `git add .` in the wild, which means add all created / modified / deleted files to the staging area. If you're new to Git, this can be dangerous as you may inadvertently commit unwanted files.
 
 ## Status
 
@@ -117,15 +117,14 @@ the changes introduced by different commits.
 
 ## Undo Changes
 
-_Scenario_: You accidentally committed `node_modules/` and want to remove it
-Git tracking.
+_Scenario_: You accidentally committed `node_modules/` and want to remove it from Git.
 
 You have 2 options:
 
 1.  Delete the folder physically from Git and commit it.
 2.  Use `git rm -r --cached node_modules/`. This marks `node_modules` as deleted
     in the staging area, but does not remove it physically. When you run `git
-commit`, it will remove `node_modules/` from Git database.
+commit`, it will remove `node_modules/` from Git locally.
 
 ```sh
 git rm -r --cached node_modules/
@@ -145,7 +144,7 @@ git restore --staged unwanted.txt
 _Scenario_: You would like to discard all changes to a file.
 
 Running `git restore <file-1> ... [file-N]` reverts the file(s) to their state
-since their last commit.
+since last committed.
 
 ```sh
 echo "Bad changes" >> README
@@ -160,6 +159,8 @@ file at the root directory and specify all the file(s) and folder(s) you want
 Git to ignore.
 
 ```sh
+# .gitignore
+
 *.log # Do not track any file that has .log extension
 node_modules/ # Ignore all files inside node_modules/ directory
 a/**/*.txt # Ignore all files inside a/ that has .txt extension
@@ -208,11 +209,11 @@ branch.
 
 One of the most common workflow with Git is:
 
-1. Keep one branch (i.e `main`) as the source of truth. Any commits on the
-   main branch has been tested and reviewed.
+1. Keep one branch (i.e `main`) as the source of truth. All commits made on the
+   `main` have been tested and reviewed.
 2. Develop new features / bug fixes on a different branch.
-3. Once you're happy with the changes for a given branch, incorporate the changes
-   into the `main` branch.
+3. Once you're happy with the changes on a given branch, incorporate the changes
+   into `main`.
 
 ### Merge
 
@@ -249,15 +250,14 @@ Bye world
 ```
 
 - The conflicting changes are delinated by `=======`.
-- The code between `<<<<<<< HEAD` to `=======` is introduced by the current branch that you're on.
-- The code between `=======` to `>>>>>>> feature-branch` is introduced by the
-  branch the branch that you're merging from.
+- The code between `<<<<<<< HEAD` to `=======` exists on your current current branch.
+- The code between `=======` to `>>>>>>> feature-branch` exists on the branch that you're merging from.
 
 When dealing with merge conflicts, you have 3 options:
 
-1. Keep the current changes
-2. Keep the incoming changes
-3. Keep both changes
+1. Keep the current changes.
+2. Keep the incoming changes.
+3. Keep both changes.
 
 The correct answer is context dependent. For example, the most common types
 of merge conflicts are:
@@ -272,8 +272,8 @@ After you resolved the conflicts, run `git add <conflicting-files>` and `git com
 
 Github is a platform to host Git repositories. We will use Github to collaborate
 in group project. Everything you've learned with Git applies when working with
-Github. The only new concept is a **remote repository**. A remote repository
-is a Git repository hosted on the Internet. This means that:
+Github. The only new concept that you need to know is **remote repository**. A
+remote repository is a Git repository hosted on the Internet. This means that:
 
 1. You can develop independently on your laptop and **push** your changes to a
    remote repository.
@@ -300,16 +300,17 @@ To update your current branch with changes from the remote repository, run
 ### Remote Repository
 
 When using Github (or any other platform), your laptop tracks the state of
-the repository locally and remotely. By default, `origin` is a friendly alias
-for a remote repository.
+the repository locally and remotely; recall that you can sync your laptop using
+`git pull`. By default, `origin` is a friendly alias for a remote repository.
 
 If you have ran `git pull` on a non-empty repository, running `git log` will
 show something similar to this:
 
 ![Git log](https://miro.medium.com/v2/resize:fit:1170/1*ukGdfvm25qgoYSnN8huc_g.png)
 
-`origin/development` refers to the state of remote branch. You can switch to a
-remote branch by running `git switch <branch-name>`, omitting `origin/`.
+In the abovementioned example, `origin/development` refers to the state of
+remote branch. You can switch to a remote branch by running `git switch
+<branch-name>`, omitting `origin/`.
 
 > ℹ️ If you're curious what `origin` is, try running `git remote -v`.
 
@@ -318,7 +319,7 @@ remote branch by running `git switch <branch-name>`, omitting `origin/`.
 I will outline a common guideline when working in teams with Github.
 
 - Clearly communicate with everyone to delegate tasks.
-- Before you begin working on a new feature, checkout the main branch and pull the latest main.
+- Before you begin working on a new feature, checkout `main` and pull the latest `main`.
 - Work on the new feature off a branch.
 - When you're happy with your changes, push, make a PR, and ping someone else for review.
 - If your changes introduce merge conflicts:
@@ -328,7 +329,7 @@ I will outline a common guideline when working in teams with Github.
   - Merge main to your branch
   - Push your changes
 
-> ❌ Never push directly to main; it's bad practice. Checkout this [Stack Overflow post](https://stackoverflow.com/questions/46146491/prevent-pushing-to-master-on-github) to enable branch protection.
+> ❌ Never push directly to `main`, as that's bad practice. Checkout this [Stack Overflow post](https://stackoverflow.com/questions/46146491/prevent-pushing-to-master-on-github) to enable branch protection.
 
 > ❌ A PR should only address 1 feature / change.
 

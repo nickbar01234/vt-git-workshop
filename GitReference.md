@@ -77,9 +77,9 @@ git init
 ## Staging Area
 
 The staging area contains the files that will go into your next commit. To
-staged file(s), use the command `git add <file-1> ... [file-N]`.
+stage file(s), use the command `git add <file-1> ... [file-N]`.
 
-Note that Git only store the state of the file at the most recent time when you run
+Note that Git only stores the state of the file at the most recent time when you run
 `git add ...`. This means in the following snippet, committing will only take
 a snapshot of the README with Hello world!
 
@@ -314,3 +314,22 @@ remote branch by running `git switch <branch-name>`, omitting `origin/`.
 > ℹ️ If you're curious what `origin` is, try running `git remote -v`.
 
 ### Collaboration
+
+I will outline a common guideline when working in teams with Github.
+
+- Clearly communicate with everyone to delegate tasks.
+- Before you begin working on a new feature, checkout the main branch and pull the latest main.
+- Work on the new feature off a branch.
+- When you're happy with your changes, push, make a PR, and ping someone else for review.
+- If your changes introduce merge conflicts:
+  - Checkout the main branch.
+  - Pull the latest main.
+  - Checkout your branch
+  - Merge main to your branch
+  - Push your changes
+
+> ❌ Never push directly to main; it's bad practice. Checkout this [Stack Overflow post](https://stackoverflow.com/questions/46146491/prevent-pushing-to-master-on-github) to enable branch protection.
+
+> ❌ A PR should only address 1 feature / change.
+
+> ✅ Keep PRs small and concise. A good rule of thumb is less than 300-500 lines of codes per PR. If you introduces too many changes, it's hard for someone else to give you meaningful feedback.

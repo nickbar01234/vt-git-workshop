@@ -187,7 +187,7 @@ Git branch is a friendly name for a commit in Git.
 
 ### Viewing Branch
 
-You can view all local branches using `git branch` - checkout [the section on Github](#github)
+You can view all local branches using `git branch` - checkout [the section on Github](#remote-repository)
 for more information about local branches.
 
 ### Create Branch
@@ -203,7 +203,7 @@ the branch that you specified.
 ### Development
 
 With Git branches, you can develop new features independently of other branches.
-This means that commits made on one branch does not effect the state of another
+This means that commits made on one branch does not affect the state of another
 branch.
 
 One of the most common workflow with Git is:
@@ -225,3 +225,92 @@ Running `git merge` will add all the new commits from `<branch-with-new-changes>
 to your current branch.
 
 #### Merge Conflict
+
+A merge conflict occurs when the same file(s) is edited in different ways and
+Git does not know how to resolve the differences.
+
+![Merge Conflicts](https://phoenixnap.com/kb/wp-content/uploads/2021/06/git-merge-conflict-error.png)
+
+When you have a merge conflict, the first step you should do is run `git status`
+to view all impacted files.
+
+![Merge Conflicts Status](https://css-tricks.com/wp-content/uploads/2014/04/01-unmerged-paths-after-merge.gif)
+
+All the impacted files will be listed under **Unmerged paths**. You will need
+to go through each impacted files and manually resolve the conflicts. Let's
+take a look at an example of a conflict file:
+
+```
+<<<<<<< HEAD
+Hello world
+=======
+Bye world
+>>>>>>> feature-branch
+```
+
+- The conflicting changes are delinated by `=======`.
+- The code between `<<<<<<< HEAD` to `=======` is introduced by the current branch that you're on.
+- The code between `=======` to `>>>>>>> feature-branch` is introduced by the
+  branch the branch that you're merging from.
+
+When dealing with merge conflicts, you have 3 options:
+
+1. Keep the current changes
+2. Keep the incoming changes
+3. Keep both changes
+
+The correct answer is context dependent. For example, the most common types
+of merge conflicts are:
+
+1. ✅ Different developers introduce different features. In most cases, you want to keep both changes.
+2. ❌ Different developers edit the same feature in different ways. This is
+   **usually bad**, because it indicates unclear task delegations in the team.
+
+After you resolved the conflicts, run `git add <conflicting-files>` and `git commit -m <message>` to complete the merge.
+
+## Github
+
+Github is a platform to host Git repositories. We will use Github to collaborate
+in group project. Everything you've learned with Git applies when working with
+Github. The only new concept is a **remote repository**. A remote repository
+is a Git repository hosted on the Internet. This means that:
+
+1. You can develop independently on your laptop and **push** your changes to a
+   remote repository.
+2. You can **pull** new changes in the remote repository (from other developers) to your laptop.
+
+### Clone
+
+To get a copy of a remote repository, navigate to Github's repository dashboard.
+Next, copy the SSH url, and run `git clone <url>`.
+
+![Git clone](https://docs.github.com/assets/cb-14601/mw-1440/images/help/repository/code-button.webp)
+
+### Push
+
+To update the remote repository with your changes, run `git push origin <branch>`,
+where `branch` is the name of the branch that you're currently on. Checkout the section
+on [remote repository](#remote-repository) to learn more about `origin`.
+
+### Pull
+
+To update your current branch with changes from the remote repository, run
+`git pull origin <branch>`, where `branch` is the name of the branch that you're currently on.
+
+### Remote Repository
+
+When using Github (or any other platform), your laptop tracks the state of
+the repository locally and remotely. By default, `origin` is a friendly alias
+for a remote repository.
+
+If you have ran `git pull` on a non-empty repository, running `git log` will
+show something similar to this:
+
+![Git log](https://miro.medium.com/v2/resize:fit:1170/1*ukGdfvm25qgoYSnN8huc_g.png)
+
+`origin/development` refers to the state of remote branch. You can switch to a
+remote branch by running `git switch <branch-name>`, omitting `origin/`.
+
+> ℹ️ If you're curious what `origin` is, try running `git remote -v`.
+
+### Collaboration

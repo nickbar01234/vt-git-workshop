@@ -1,5 +1,5 @@
-Long Dau:
-Thuy Vy:
-Ngoc Nguyen:
-Trang Linh:
-Phan Anh:
+Long Dau: [School], [Fun fact]
+Thuy Vy: [School], [Fun fact]
+Ngoc Nguyen: [School], [Fun fact]
+Trang Linh: [School], [Fun fact]
+Phan Anh: [School], [Fun fact]

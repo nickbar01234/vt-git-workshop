@@ -296,7 +296,7 @@ on [remote repository](#remote-repository) to learn more about `origin`.
 
 ![Push Meme](https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A1200%2Fformat%3Awebp%2F0*tmfbLDU_hIeg0B3B.jpg)
 
-> ❌ This is only for fun. Please don't use this command.
+> ❌ This is only for fun. Please don't use `git push --force` if you're not sure what it does.
 
 ### Pull
 

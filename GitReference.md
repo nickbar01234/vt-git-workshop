@@ -337,6 +337,6 @@ I will outline a common guideline when working in teams with Github.
 
 > ❌ Never push directly to `main`, as that's bad practice. Checkout this [Stack Overflow post](https://stackoverflow.com/questions/46146491/prevent-pushing-to-master-on-github) to enable branch protection.
 
-> ❌ A PR should only address 1 feature / change.
+> ✅ A PR should only address 1 feature / change.
 
 > ✅ Keep PRs small and concise. A good rule of thumb is less than 300-500 lines of codes per PR. If you introduces too many changes, it's hard for someone else to give you meaningful feedback.

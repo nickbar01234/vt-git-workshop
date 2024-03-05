@@ -227,6 +227,8 @@ to your current branch.
 
 #### Merge Conflict
 
+![Merge Conflict Meme](https://slack-imgs.com/?c=1&o1=ro&url=http%3A%2F%2Fwww.quickmeme.com%2Fimg%2F58%2F58cdc50dcb04a16438e9759f2db7a0ac23442e718f69af7b2ac0a3761915e92a.jpg)
+
 A merge conflict occurs when the same file(s) is edited in different ways and
 Git does not know how to resolve the differences.
 
@@ -291,6 +293,10 @@ Next, copy the SSH url, and run `git clone <url>`.
 To update the remote repository with your changes, run `git push origin <branch>`,
 where `branch` is the name of the branch that you're currently on. Checkout the section
 on [remote repository](#remote-repository) to learn more about `origin`.
+
+![Push Meme](https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A1200%2Fformat%3Awebp%2F0*tmfbLDU_hIeg0B3B.jpg)
+
+> ❌ This is only for fun. Please don't use this command.
 
 ### Pull
 

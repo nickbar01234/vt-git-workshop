@@ -17,10 +17,10 @@ with:
 We will pretend to be a very small scale software company. You will split into
 several groups, and each group will make changes to a unique file:
 
-- Group 1: Phuong Le, Hai Nam, Thuc Anh, Huu Khang, Ba Quan
+- Group 1: Phuong Le, Hai Nam, Thuc Anh, Huu Khang, Ba Quan, Trang Vu
 - Group 2: Ngoc Anh, Tri Hoang, Thang Nguyen, Quynh Tran, Van Nguyen
 - Group 3: Giang Pham, Truong Vien, Hai Anh, Huy Hoang, Minh Hung
-- Group 4: Long Dau, Thuy Vy, Khanh Linh, Trang Linh, Phan Anh
+- Group 4: Long Dau, Thuy Vy, Khanh Linh, Trang Linh, Phan Anh, Thanh Nguyen
 - Group 5: Phuc Khang, Quy Nguyen, Vy Tran, Linh Nguyen, Duy Kha, Trang Do
 
 1. Clone the repository.

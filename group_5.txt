@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Phuc Khang: [School], [Fun fact]
 Quy Nguyen: [School], [Fun fact]
 Vy Tran: 
@@ -6,5 +7,14 @@ Vy Tran:
 Linh Nguyen: 
     - School: Tufts 
     - Fun fact: I like making emoji face like this :>> +-+ ://// hehe
-Duy Kha: [School], [Fun fact]
+Duy Kha: University of Manitoba, I am a catperson
 Trang Do: [School], [Fun fact]
+=======
+Phuc Khang: York University, I have Golden Retriever vibes!
+Quy Nguyen: [School], [Fun fact]
+Vy Tran: [School], [Fun fact]
+Linh Nguyen:  Tufts , I like making emoji face like this :>> +-+ ://// hehe
+Duy Kha: University of Manitoba, I love cat
+Trang Do: Northeastern. I like KDramas. Foodie and love cooking
+
+>>>>>>> 5505a70d177eeeca9a5569d30670e4e267fe8787

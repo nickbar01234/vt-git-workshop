@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841
 Giang Pham: [School], [Fun fact]
@@ -33,3 +34,10 @@ Hai Anh: [School], [Fun fact]
 Huy Hoang: [School], [Fun fact]
 Minh Hung: [School], [Fun fact]
 >>>>>>> 1cbe34fbc8f19201e1420f351d3f17dfc6657a56
+=======
+Giang Pham:
+Truong Vien:
+Hai Anh: Fordham, currently watching Demon Slayer
+Huy Hoang:
+Minh Hung:
+>>>>>>> 9987d26ddc4ebf8315a28cd7137e7729e37c3af2

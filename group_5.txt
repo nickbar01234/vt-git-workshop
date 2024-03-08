@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 Phuc Khang: [School], [Fun fact]
 Quy Nguyen: [School], [Fun fact]
 Vy Tran: [School], [Fun fact]
 Linh Nguyen: [School], [Fun fact]
 Duy Kha: [School], [Fun fact]
 Trang Do: [School], [Fun fact]
+=======
+Phuc Khang: Hi! I am studying at York University in Canada. A fun fact about me is that I have Golden Retriever vibes!
+Quy Nguyen:
+Vy Tran:
+Linh Nguyen:
+Duy Kha: University of Manitoba. Fun fact: I have no idea 
+Trang Do:
+>>>>>>> comtdk/whoami

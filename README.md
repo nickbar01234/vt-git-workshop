@@ -1,6 +1,6 @@
 # VT Git Workshop 2024
 
-Welcome to the VT mentorship git workshop for 2024 cohort :)
+Welcome to the VT mentorship git workshop for 2024 cohort ;))
 
 ## Goals
 

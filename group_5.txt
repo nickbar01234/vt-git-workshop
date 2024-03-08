@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Phuc Khang: York University, I have Golden Retriever vibes!
 Quy Nguyen: [School], [Fun fact]
 Vy Tran: [School], [Fun fact]
@@ -8,3 +9,11 @@ Trang Do: Northeastern. I like KDramas. Foodie and love cooking
 
 =======
 >>>>>>> comtdk/whoami
+=======
+Phuc Khang:
+Quy Nguyen:
+Vy Tran:
+Linh Nguyen: Tufts , I like making emoji face like this :>> +-+ ://// hehe
+Duy Kha:
+Trang Do:
+>>>>>>> 1cbe34fbc8f19201e1420f351d3f17dfc6657a56

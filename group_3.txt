@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841
 Giang Pham: [School], [Fun fact]
@@ -25,3 +26,10 @@ Minh Hung: Umass, HHEHEHEHEH I dunno
 >>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841
 =======
 >>>>>>> 464f35b9d37e4776d77bcfc877cf73c7574d7820
+=======
+Giang Pham: [School], [Fun fact]
+Truong Vien: [School], [Fun fact]
+Hai Anh: [School], [Fun fact]
+Huy Hoang: [School], [Fun fact]
+Minh Hung: [School], [Fun fact]
+>>>>>>> 1cbe34fbc8f19201e1420f351d3f17dfc6657a56

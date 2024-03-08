@@ -14,6 +14,7 @@ Thanh Nguyen: [School], [Fun fact]
 Long Dau:
 =======
 Long Dau: Texas Christian University/I play soccer
+<<<<<<< HEAD
 >>>>>>> 464f35b9d37e4776d77bcfc877cf73c7574d7820
 Thuy Vy:
 Khanh Linh:
@@ -27,3 +28,10 @@ Thanh Nguyen:
 >>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841
 =======
 >>>>>>> 464f35b9d37e4776d77bcfc877cf73c7574d7820
+=======
+Thuy Vy: Catholic University of America/ sợ độ cao nhưng thích chơi tàu lượn siêu tốc
+Khanh Linh: [School], [Fun fact]
+Trang Linh: [School], [Fun fact]
+Phan Anh: [School], [Fun fact]
+Thanh Nguyen: [School], [Fun fact]
+>>>>>>> 1cbe34fbc8f19201e1420f351d3f17dfc6657a56

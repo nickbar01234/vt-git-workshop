@@ -1,6 +1,5 @@
 Ngoc Anh: [School], [Fun fact]
 Tri Hoang: [School], [Fun fact]
-Thang Nguyen: [Toronto Metropolitan University],
- [I like snowboarding, badminton and baksketball]
+Thang Nguyen: [School], [Fun fact]
 Quynh Tran: [School], [Fun fact]
 Van Nguyen: [School], [Fun fact]

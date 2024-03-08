@@ -1,6 +1,6 @@
-Long Dau:
-Thuy Vy:
-Khanh Linh:
-Trang Linh: School -- HWS. Fun fact: My first major is CS :D
-Phan Anh:
-Thanh Nguyen:
+Long Dau: [School], [Fun fact]
+Thuy Vy: [School], [Fun fact]
+Khanh Linh: [School], [Fun fact]
+Trang Linh: [School], [Fun fact]
+Phan Anh: [School], [Fun fact]
+Thanh Nguyen: [School], [Fun fact]

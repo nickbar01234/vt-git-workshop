@@ -17,19 +17,18 @@ with:
 We will pretend to be a very small scale software company. You will split into
 several groups, and each group will make changes to a unique file:
 
-- Group 1: Phuong Le, Hai Nam, Thuc Anh, Huu Khang, Ba Quan
+- Group 1: Phuong Le, Hai Nam, Thuc Anh, Huu Khang, Ba Quan, Trang Vu
 - Group 2: Ngoc Anh, Tri Hoang, Thang Nguyen, Quynh Tran, Van Nguyen
-- Group 3: Giang Pham, Truong Vien, Hai Anh, Huy Hoang, Duy Kha
-- Group 4: Long Dau, Thuy Vy, Ngoc Nguyen, Trang Linh, Phan Anh
-- Group 5: Phuc Khang, Quy Nguyen, Vy Tran, Linh Nguyen, Minh Hung, Trang Do
+- Group 3: Giang Pham, Truong Vien, Hai Anh, Huy Hoang, Minh Hung
+- Group 4: Long Dau, Thuy Vy, Khanh Linh, Trang Linh, Phan Anh, Thanh Nguyen
+- Group 5: Phuc Khang, Quy Nguyen, Vy Tran, Linh Nguyen, Duy Kha, Trang Do
 
-1. Clone the [repository](git@github.com:nickbar01234/vt-git-workshop.git).
+1. Clone the repository.
 2. Checkout branch `whoami`.
 3. Create a new branch `<username>/whoami`.
 4. In the repository, there are 5 files for each group. Find the file for your
-group and add your school and a fun fact about you.
+   group and add your school and a fun fact about you.
 5. Commit and push your changes.
 6. Create a PR.
 7. You will notice on that there are merge conflicts. Resolve the conflicts
-and merge your branch in.
-
+   and merge your branch in.

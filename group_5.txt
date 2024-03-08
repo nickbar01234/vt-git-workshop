@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Phuc Khang: York University, I have Golden Retriever vibes!
 Quy Nguyen: [School], [Fun fact]
 Vy Tran: [School], [Fun fact]
@@ -17,3 +18,15 @@ Linh Nguyen: Tufts , I like making emoji face like this :>> +-+ ://// hehe
 Duy Kha:
 Trang Do:
 >>>>>>> 1cbe34fbc8f19201e1420f351d3f17dfc6657a56
+=======
+Phuc Khang: [School], [Fun fact]
+Quy Nguyen: [School], [Fun fact]
+Vy Tran: 
+    - School: Bucknell University
+    - Fun fact: I'm a fast typer
+Linh Nguyen: 
+    - School: Tufts 
+    - Fun fact: I like making emoji face like this :>> +-+ ://// hehe
+Duy Kha: [School], [Fun fact]
+Trang Do: [School], [Fun fact]
+>>>>>>> 662e721391a7b14efc406043c6af30403796283f

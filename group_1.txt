@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841
 Phuong Le: [School], [Fun fact]
 Hai Nam: [School], [Fun fact]
 Thuc Anh: [School], [Fun fact]
 Huu Khang: [School], [Fun fact]
 Ba Quan: [School], [Fun fact]
 Trang Vu: [School], [Fun fact]
+<<<<<<< HEAD
 =======
 Phuong Le:
 Hai Nam:
@@ -13,3 +17,5 @@ Huu Khang:
 Ba Quan:
 Trang Vu:
 >>>>>>> comtdk/whoami
+=======
+>>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841

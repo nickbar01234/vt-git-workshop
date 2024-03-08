@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841
 Long Dau: [School], [Fun fact]
 Thuy Vy: [School], [Fun fact]
 Khanh Linh: [School], [Fun fact]
 Trang Linh: [School], [Fun fact]
 Phan Anh: [School], [Fun fact]
 Thanh Nguyen: [School], [Fun fact]
+<<<<<<< HEAD
 =======
 Long Dau:
 Thuy Vy:
@@ -13,3 +17,6 @@ Trang Linh:
 Phan Anh:
 Thanh Nguyen:
 >>>>>>> comtdk/whoami
+=======
+
+>>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841

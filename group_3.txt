@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841
 Giang Pham: [School], [Fun fact]
 Truong Vien: [School], [Fun fact]
-Hai Anh: [School], [Fun fact]
+Hai Anh: Fordham University, currently watching & loving Demon Slayer
 Huy Hoang: [School], [Fun fact]
+<<<<<<< HEAD
 Minh Hung: [School], [Fun fact]
 =======
 Giang Pham:
@@ -11,3 +15,6 @@ Hai Anh:
 Huy Hoang:
 Minh Hung:
 >>>>>>> comtdk/whoami
+=======
+Minh Hung: Umass, HHEHEHEHEH I dunno
+>>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841

@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841
 Phuc Khang: [School], [Fun fact]
 Quy Nguyen: [School], [Fun fact]
 Vy Tran: [School], [Fun fact]
 Linh Nguyen: [School], [Fun fact]
 Duy Kha: [School], [Fun fact]
+<<<<<<< HEAD
 Trang Do: [School], [Fun fact]
 =======
 Phuc Khang: Hi! I am studying at York University in Canada. A fun fact about me is that I have Golden Retriever vibes!
@@ -13,3 +17,6 @@ Linh Nguyen:
 Duy Kha: University of Manitoba. Fun fact: I have no idea 
 Trang Do:
 >>>>>>> comtdk/whoami
+=======
+Trang Do: Northeastern. I like KDramas. Foodie and love cooking
+>>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841

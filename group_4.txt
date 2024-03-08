@@ -3,4 +3,4 @@ Thuy Vy:
 Khanh Linh:
 Trang Linh:
 Phan Anh:
-Thanh Nguyen: Uni of British Columbia. Fun fact: learning git :D
+Thanh Nguyen: Uni of British Columbia. Fun fact: learning git :D Try to commit 2nd time

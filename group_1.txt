@@ -1,6 +1,6 @@
-Phuong Le:
-Hai Nam:
-Thuc Anh:
-Huu Khang:
-Ba Quan:
-Trang Vu:
+Phuong Le: [School], [Fun fact]
+Hai Nam: [School], [Fun fact]
+Thuc Anh: [School], [Fun fact]
+Huu Khang: [School], [Fun fact]
+Ba Quan: [School], [Fun fact]
+Trang Vu: [School], [Fun fact]

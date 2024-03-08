@@ -4,4 +4,7 @@ Vy Tran: [School], [Fun fact]
 Linh Nguyen: [School], [Fun fact]
 Duy Kha: University of Manitoba, I love cat
 Trang Do: Northeastern. I like KDramas. Foodie and love cooking
+<<<<<<< HEAD
 
+=======
+>>>>>>> comtdk/whoami

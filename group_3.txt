@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841
 Giang Pham: [School], [Fun fact]
@@ -9,12 +10,18 @@ Huy Hoang: [School], [Fun fact]
 <<<<<<< HEAD
 Minh Hung: [School], [Fun fact]
 =======
+=======
+
+>>>>>>> 464f35b9d37e4776d77bcfc877cf73c7574d7820
 Giang Pham:
 Truong Vien:
 Hai Anh:
 Huy Hoang:
 Minh Hung:
+<<<<<<< HEAD
 >>>>>>> comtdk/whoami
 =======
 Minh Hung: Umass, HHEHEHEHEH I dunno
 >>>>>>> 747f1a7dc4627a571138ea66833104fd833eb841
+=======
+>>>>>>> 464f35b9d37e4776d77bcfc877cf73c7574d7820
